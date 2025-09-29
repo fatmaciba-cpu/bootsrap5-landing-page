@@ -1,0 +1,329 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <title>Kurtis Classroom</title>
+  </head>
+  <body>
+    <script src="proje.js"></script>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <h1 class="baslik mb-0">
+              Kurtis Classroom
+              <i class="fa-brands fa-squarespace"></i>
+            </h1>
+          </a>
+          <div class="text-center">
+            <button class="btn btn-outline-primary" type="button">Kaydol</button>
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">EN</button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="#">TR</a></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <i class="lni lni-align-text-right navbar-icon"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row align-items-center justify-content-center mt-5 w-100">
+        <div class="col-lg-6 col-12 text-start">
+          <h2>Ögrenmeyi eglenceli hale getir!</h2>
+          <p>Her konu, her dilde, her cihazda, her yaş için!</p>
+          <div>
+            <button class="btn btn-outline-primary" type="button">Ücretsiz Kaydol</button>
+          </div>
+          <div class="col-lg-6 col-12 mt-4">
+            <p>Ya da uygulamayı indir.</p>
+            <div class="d-flex gap-3">
+              <img src="gindir.jpg" alt="foto1" class="img-fluid w-50" />
+              <img src="aindir.jpg" alt="foto2" class="img-fluid w-50" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 text-end mt-lg-0 mt-5">
+          <img src="gorsel.png" alt="foto1" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light p-3 mt-5">
+      <div class="text-center">
+        <div class="d-flex justify-content-center flex-column">
+          <h1>Kurtis kimler içindir?</h1>
+          <div style="border-bottom: 4px solid blue; height: 10px; width: 90px; margin: auto;"></div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-between flex-wrap px-5 mt-5">
+        <div class="d-flex flex-column gap-2 mb-5">
+          <div style="border-radius: 50%; width: 40px; height: 40px; display: flex;
+              align-items: center; justify-content: center; background-color: rgb(5, 16, 168);">
+            <i class="fas fa-book ms-1"></i>
+          </div>
+          <h5>Okulda</h5>
+          <p>Öğretmenler ve öğrenciler için etkileyici <br /> grup çalışmaları ve uzaktan eğitim.</p>
+          <a href="#">Daha fazla</a>
+        </div>
+        <div class="d-flex flex-column gap-2 mb-5">
+          <div style="border-radius: 50%; width: 40px; height: 40px; display: flex;
+              align-items: center; justify-content: center; background-color: rgb(234, 255, 0);">
+            <i class="fa-solid fa-suitcase ms-1"></i>
+          </div>
+          <h5>İş Yerinde</h5>
+          <p>Eğitim, e-öğrenme, etkileşimli <br />sunumlar ve daha fazlası için.</p>
+          <a href="#">Daha fazla</a>
+        </div>
+        <div class="d-flex flex-column gap-2 mb-5">
+          <div style="border-radius: 50%; width: 40px; height: 40px; display: flex;
+              align-items: center; justify-content: center; background-color: rgb(45, 124, 219);">
+            <i class="fas fa-home ms-1"></i>
+          </div>
+          <h5>Evde</h5>
+          <p>Aile eğlencesi veya evde çalışma <br /> için uygulamalar ve oyunlar.</p>
+          <a href="#">Daha fazla</a>
+        </div>
+        <div class="d-flex flex-column gap-2 mb-5">
+          <div style="border-radius: 50%; width: 40px; height: 40px; display: flex;
+              align-items: center; justify-content: center; background-color: red;">
+            <i class="fa-solid fa-mobile ms-1"></i>
+          </div>
+          <h5>Telefonda</h5>
+          <p>Kahoot! öğrenme uygulamaları<br /> ailesiyle çocukları eğlendir.</p>
+          <a href="#">Daha fazla</a>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-outline-primary" type="button">Şimdi Kaydol</button>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="text-center">
+        <div class="d-flex justify-content-center flex-column">
+          <h1>Harika Şeyler Oluyor!!</h1>
+          <div style="border-bottom: 4px solid blue; height: 10px; width: 90px; margin: auto;"></div>
+          <div class="owl-carousel mt-4">
+            <div><img src="./kaydır1.jpg" alt="" class="img-fluid" style="height: 300px" /></div>
+            <div><img src="./kaydır2.jpg" alt="" class="img-fluid" style="height: 300px" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="text-center">
+        <div class="d-flex justify-content-center flex-column">
+          <h2>Nasıl Çalışır?</h2>
+          <div style="border-bottom: 4px solid blue; height: 10px; width: 90px; margin: auto;"></div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center mt-5 w-100">
+        <div class="col-lg-6 col-12 text-start">
+          <h3>Oluştur</h3>
+          <p>Herhangi bir konuda, <br /> herhangi bir dilde bir öğrenme oyunu veya<br />
+            bilgi yarışması oluşturmak sadece birkaç dakikanızı alır.</p>
+        </div>
+        <div class="col-lg-4 col-12 text-center mt-lg-0 mt-5">
+          <img src="gorsel2.png" alt="foto1" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 col-12">
+          <img src="gorsel1.png" alt="foto1" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-12 text-end">
+          <div class="d-flex flex-column align-items-end">
+            <h3>Sun veya paylaş</h3>
+            <p>Canlı bir oyunu büyük ekranda sunabilir ya da<br> uzaktaki oyuncularla paylaşabilirsiniz.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 col-12 text-start">
+          <h3>Oyna</h3>
+          <p>Oyun başlasın! Bir kahoot’a katılmak için<br> sunucunun verdiği PIN kodunu gir ve<br>
+            soruları kendi cihazından yanıtla.</p>
+        </div>
+        <div class="col-lg-4 col-12 text-center mt-lg-0 mt-5">
+          <img src="gorsel3.png" alt="foto1" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-6 text-center">
+          <div class="d-flex align-items-center justify-content-start">
+            <div style=
+            "width: 5px;
+             height: 40px;
+             border-radius: 20%;
+             display: flex;
+             background-color: rgb(0, 5, 141);
+             margin-right: 10px;">
+             </div>
+            <p>ABD’deki öğretmenlerin %50’sinden<br> fazlası Kurtis kullanıyor</p>    
+          </div>
+        </div>
+        <div class="col-lg-3 col-6  text-center">
+          <div class="d-flex align-items-center justify-content-center">
+            <div style="width: 5px;
+             height: 40px;
+             border-radius: 20%;
+             display: flex;
+             background-color: rgb(255, 247, 1);
+             margin-right: 10px;">
+             </div>
+            <p>200’den fazla ülkede oyuncular</p> 
+          </div>
+        </div>
+          <div class="col-lg-3 col-6 text-center">
+          <div class="d-flex align-items-center justify-content-center">
+            <div style="width: 5px;
+             height: 40px;
+             border-radius: 20%;
+             background-color: rgb(63, 139, 193);
+             display: flex;
+             margin-right: 10px;">
+             </div>
+            <p>30 milyondan fazla herkese<br> açık oyun mevcut</p>
+          </div>
+          </div>
+         <div class="col-lg-3 col-6 text-center">
+          <div class="d-flex align-items-center justify-content-end">
+            <div style="width: 5px;
+             height: 40px;
+             border-radius: 20%;
+             display: flex;
+             background-color: rgb(95, 50, 3);
+             margin-right: 10px;">
+             </div>
+            <p>Fortune 500 şirketlerinin %97’si Kurtis kullanıyor</p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-6 col-12">
+          <img src="gorsel4.png" alt="foto1" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-12 text-end">
+          <div class="d-flex flex-column align-items-end">
+            <h1>Öğrenmeyi eğlenceli hale getirmeye hazır mısın!</h1>
+            <div class="text-center">
+        <button class="btn btn-outline-primary" type="button">Şimdi Kaydol</button>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  bg-primary">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-12 mt-5">
+          <h3 class="baslik2 text-center mb-0">
+              Kurtis Classroom
+              <i class="fa-brands fa-squarespace"></i>
+            </h3>
+             <p class="indir mt-5">Uygulamayı indir.</p>
+            <div class="d-flex text-center gap-3">
+              <img src="gindir.jpg" alt="foto1" class="img-fluid resim2" />
+              <img src="aindir.jpg" alt="foto2" class="img-fluid resim2" />
+            </div>
+            <h5 class="basliks mt-4">
+              Takip et:
+            </h5>
+            <i class="fa-brands fa-x-twitter bg-light ikon1"></i>
+            <i class="fa-brands fa-instagram bg-light ikon1"></i>
+            <i class="fa-brands fa-facebook-f bg-light ikon1"></i>
+            <i class="fa-brands fa-twitter bg-light ikon1"></i>
+            <i class="fa-brands fa-linkedin-in bg-light ikon1"></i>
+            <footer class="altbilgi text-center mt-5">
+            &copy; 2024 Kurtis Classroom. Tüm hakları saklıdır.
+          </footer>
+        </div>
+       <div class="col-lg-2 col-12 mt-5">
+          <h5 class="basliks mb-3">Hakkımızda</h5>
+          <p class="yazi3">Şirket</p>
+          <p class="yazi3">İş İlanları</p>
+          <p class="yazi3">Liderlik</p>
+          <p class="yazi3">Fiyatlandırma</p>
+          <p class="yazi3">Basın</p>
+          <p class="yazi3">Yatırımcılar</p>
+      </div>
+      <div class="col-lg-2 col-12 mt-5">
+          <h5 class="basliks mb-3">Çözümler</h5>
+          <p class="yazi3">Okulda</p>
+          <p class="yazi3">İşde</p>
+          <p class="yazi3">Evde</p>
+      </div>
+      <div class="col-lg-2 col-12 mt-5">
+          <h5 class="basliks mb-3">Kaynaklar</h5>
+          <p class="yazi3">Kurtis İe Çaış</p>
+          <p class="yazi3">Blog</p>
+          <p class="yazi3">Kurtis Sertifikalı</p>
+          <p class="yazi3">Yardım Merkezi</p>
+          <p class="yazi3">Fiyatlan Kütüphane</p>
+          <p class="yazi3">Mağaza</p>
+          <p class="yazi3">Güvenlik Merkezi</p>
+      </div>
+      <div class="col-lg-2 col-12 mt-5">
+          <h5 class="basliks mb-3">Şarlar Ve Koşullar</h5>
+          <p class="yazi3">Gizlilik Politikası</p>
+          <p class="yazi3">ABD Gizlilik Politikası</p>
+          <p class="yazi3">Çocukların Gizliliği Politikası</p>
+          <p class="yazi3">Kapsayıcılık ve Erişilebilirlik Politikası</p>
+          <div class="d-flex resimler mt-4">
+            <img src="google.png" alt="foto1" class="img-fluid resim4" />
+            <img src="mcr.png" alt="foto2" class="img-fluid resim5" />
+          </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 },
+          },
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
